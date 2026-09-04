@@ -3,7 +3,7 @@ name: Build Pipeline
 on:
   push:
     branches:
-      - 'KAN-1-add-ai-chat-bot'
+      - 'KAN-1-add-the-AI-chat-bot-for-better-user-experience'
 
 jobs:
   build:
