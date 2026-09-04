@@ -1,0 +1,16 @@
+name: Build Pipeline
+
+on:
+  push:
+    branches:
+      - 'KAN-1-add-the-AI-chat-bot-for-better-user-experience'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Display Build Message
+        run: echo "GitHub Actions Build Successful"
